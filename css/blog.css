@@ -8,6 +8,197 @@ body {
 
 /* Common Styles */
 
+/* Media Queries */
+/* Tablet View  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        max-width: 90%;
+    }
+
+    .header-info {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .header-info nav a {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+
+    }
+
+    .header-info h1 span {
+        font-size: 40px;
+    }
+
+    .header-info p {
+        height: 60px;
+        white-space: no wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .banner-image {
+        max-width: 120%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .aside {
+        background-color: white !important;
+    }
+
+    .aside nav {
+        margin-left: 100px;
+        margin-right: 100px;
+        max-width: 300%;
+        display: inline-flex;
+    }
+
+    .aside nav a {
+        border: 1px solid gray;
+    }
+
+    .aside-nav-1 {
+        margin-left: 100px;
+    }
+
+    .article {
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+        max-width: 65%;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .article nav {
+        margin-top: 20px;
+        visibility: visible !important;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    footer h2 {
+        max-width: 70%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .footer-nav-1 {
+        max-width: 65%;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-nav-2 {
+        max-width: 70%;
+    }
+
+    .footer-section p {
+        max-width: 70%;
+    }
+}
+
+/* Tablet View  */
+
+/* Mobile View */
+@media screen and (max-width:767px) {
+    .header {
+        max-width: 100%;
+    }
+
+    .header-info {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .header-info nav a {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+
+    }
+
+    .header-info h1 span {
+        font-size: 40px;
+    }
+
+    .header-info p {
+        height: 60px;
+        white-space: no wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .banner-image {
+        max-width: 120%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .aside {
+        background-color: white !important;
+    }
+
+    .aside nav {
+        margin-left: 100px;
+        margin-right: 100px;
+        max-width: 300%;
+        display: block;
+    }
+
+    .aside nav a {
+        border: 1px solid gray;
+    }
+
+    .aside-nav-1 {
+        margin-left: 100px;
+    }
+
+    .article {
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+        max-width: 65%;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    footer h2 {
+        max-width: 36%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .footer-nav-1 {
+        max-width: 14%;
+        display: block;
+        text-align: center;
+        padding-left: 140px;
+    }
+
+    .footer-nav-2 {
+        max-width: 35%;
+    }
+
+    .footer-section p {
+        max-width: 35%;
+    }
+}
+
+/* Mobile View */
+/* Media Queries */
+
 /* Header Styles */
 .color-change {
     animation: color-animation 2s linear infinite;
@@ -114,7 +305,7 @@ body {
     font-size: 20px;
     margin-left: 300px;
     margin-right: 300px;
-    background-color: #DD0000;
+    background-color: tomato;
     border-radius: 5px;
     padding: 15px 30px;
 }
@@ -174,22 +365,22 @@ body {
 }
 
 .aside-nav-3 {
-    background-color: #DD0000;
+    background-color: tomato;
     color: black;
 }
 
 .aside-nav-1:hover {
-    background-color: #DD0000;
+    background-color: tomato;
     color: white;
 }
 
 .aside-nav-2:hover {
-    background-color: #DD0000;
+    background-color: tomato;
     color: white;
 }
 
 .aside-nav-3:hover {
-    background-color: #DD0000;
+    background-color: tomato;
     color: white;
 }
 
@@ -227,7 +418,7 @@ body {
 }
 
 .article div a:hover {
-    background-color: #DD0000;
+    background-color: tomato;
     color: white;
     border: none;
 }
@@ -257,7 +448,7 @@ body {
     position: relative;
     left: 500px;
     text-decoration: none;
-    background-color: #DD0000;
+    background-color: tomato;
     padding: 5px 20px;
     border-radius: 5px;
     color: black;
